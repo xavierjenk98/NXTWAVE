@@ -38,7 +38,7 @@ export default function MusicApplyForm() {
       setErrors(errs);
       return;
     }
-    // TODO: submit to backend
+    // TODO: POST form payload to your backend endpoint (e.g. /api/apply/music) or a form service (e.g. Formspree); handle errors and show a user-facing error state
     setSubmitted(true);
   }
 

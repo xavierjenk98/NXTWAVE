@@ -14,7 +14,7 @@ export default function DropAlerts({ variant = "default" }: DropAlertsProps) {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!email) return;
-    // TODO: connect to email platform
+    // TODO: POST { email, city } to your email marketing platform (e.g. Mailchimp /subscribe or SendGrid /contacts)
     setSubmitted(true);
   }
 
