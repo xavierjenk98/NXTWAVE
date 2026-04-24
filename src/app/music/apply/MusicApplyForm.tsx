@@ -26,8 +26,6 @@ export default function MusicApplyForm() {
     const filledLinks = links.filter((l) => l.trim() !== "");
     if (filledLinks.length < 1) {
       errs.performanceLinks = "Please provide at least 1 live performance video link (no studio-only submissions).";
-    } else if (filledLinks.length > 3) {
-      errs.performanceLinks = "Maximum 3 performance video links.";
     }
     return errs;
   }

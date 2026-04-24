@@ -27,8 +27,13 @@ export default function DropAlerts({ variant = "default" }: DropAlertsProps) {
     );
   }
 
+  const containerClass =
+    variant === "dark"
+      ? "rounded-2xl p-8 bg-black/40 border border-white/15"
+      : "rounded-2xl p-8 bg-white/5 border border-white/10";
+
   return (
-    <div className={`rounded-2xl p-8 ${variant === "dark" ? "bg-white/5 border border-white/10" : "bg-white/5 border border-white/10"}`}>
+    <div className={containerClass}>
       <h2 className="text-2xl md:text-3xl font-black uppercase tracking-widest text-center mb-2">
         Drop Alerts
       </h2>

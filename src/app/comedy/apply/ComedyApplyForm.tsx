@@ -26,8 +26,6 @@ export default function ComedyApplyForm() {
     const filledClips = clips.filter((c) => c.trim() !== "");
     if (filledClips.length < 1) {
       errs.standupClips = "Please provide at least 1 stand-up set or live performance clip.";
-    } else if (filledClips.length > 3) {
-      errs.standupClips = "Maximum 3 clips.";
     }
     return errs;
   }
