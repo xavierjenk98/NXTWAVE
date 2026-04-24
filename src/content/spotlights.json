@@ -1,0 +1,16 @@
+{
+  "music": {
+    "name": "Artist TBA",
+    "city": "City TBA",
+    "blurb": "Spotlight dropping soon — stay tuned.",
+    "image": null,
+    "link": "/music/lineup"
+  },
+  "comedy": {
+    "name": "Comedian TBA",
+    "city": "City TBA",
+    "blurb": "Spotlight dropping soon — stay tuned.",
+    "image": null,
+    "link": "/comedy/lineup"
+  }
+}
