@@ -1,0 +1,8 @@
+[
+  { "id": 1, "label": "Music Night", "tag": "Music", "image": null },
+  { "id": 2, "label": "Stand-Up Night", "tag": "Comedy", "image": null },
+  { "id": 3, "label": "The Stage", "tag": "Music", "image": null },
+  { "id": 4, "label": "Crowd Energy", "tag": "Comedy", "image": null },
+  { "id": 5, "label": "Late Night", "tag": "Music", "image": null },
+  { "id": 6, "label": "Opening Night", "tag": "Comedy", "image": null }
+]
